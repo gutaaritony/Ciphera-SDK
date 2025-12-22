@@ -1,6 +1,6 @@
 {
   "name": "@ciphera/sdk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "SDK for Ciphera Solana program",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
