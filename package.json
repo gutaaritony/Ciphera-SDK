@@ -1,6 +1,6 @@
 {
   "name": "@ciphera/sdk",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "SDK for Ciphera Solana program",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,11 +9,11 @@
     "dev": "tsc --watch"
   },
   "dependencies": {
-    "@coral-xyz/anchor": "^0.30.0",
     "@solana/web3.js": "^1.95.0",
     "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
+    "@types/tweetnacl": "^1.0.0",
     "typescript": "^5.0.0"
   }
 }

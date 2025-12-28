@@ -9,9 +9,9 @@ import { getProfilePDA, getNotePDA, getMessagePDA } from "./pda";
 // Anchor discriminators (first 8 bytes of sha256("global:<instruction_name>"))
 const DISCRIMINATOR = {
   register: Buffer.from([211, 124, 67, 15, 211, 194, 178, 240]),
-  createNote: Buffer.from([22, 91, 100, 67, 234, 65, 98, 47]),
-  updateNote: Buffer.from([103, 54, 172, 34, 231, 104, 87, 21]),
-  deleteNote: Buffer.from([214, 184, 181, 100, 253, 58, 221, 130]),
+  createNote: Buffer.from([103, 2, 208, 242, 86, 156, 151, 107]),
+  updateNote: Buffer.from([103, 129, 251, 34, 33, 154, 210, 148]),
+  deleteNote: Buffer.from([182, 211, 115, 229, 163, 88, 108, 217]),
   sendMessage: Buffer.from([57, 40, 34, 178, 189, 10, 65, 26]),
 };
 
