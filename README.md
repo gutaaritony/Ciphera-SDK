@@ -506,7 +506,7 @@ CPHRneHpHq6HcBKAqVcSy4bCkL6Y3BBQnLN9qQ4itQMC
 ## Links
 
 - Website: https://cipheralab.com/
-- X: https://x.com/CipheraLabs
+- X: https://x.com/tryCiphera
 
 ## License
 
